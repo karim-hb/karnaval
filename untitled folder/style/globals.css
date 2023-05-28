@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+
+  input,
+  select,
+  button {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .container {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 10px;
+  }
+}
